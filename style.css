@@ -101,26 +101,42 @@ body {
   font-style: italic;
 }
 
+.mainpage {
+  position: absolute;
+  top: 45%;
+  right: 25%;
+  font-size: 90px;
+  line-height: 40px;
+  font-weight: bold;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border-top: 10px solid #ffffff;
+  border-right: 10px solid #ffffff;
+  transform: rotate(45deg);
+}
+
 /* main page */
 .subtitle {
-  padding: 5%;
-  writing-mode: vertical-rl;
-  text-orientation: sideways;
-  font-size: 50px;
-  text-align: center;
+  padding: 8%;
+  font-style: italic;
+  font-size: 60px;
+  text-align: left;
   color: #e3dbdb;
 }
+
 .nextpage {
   position: absolute;
-  bottom: 5%;
-  left: 5%;
-  font-size: 50px;
+  top: 5%;
+  right: 5%;
+  font-size: 40px;
   text-align: center;
   color: #e3dbdb;
   cursor: pointer;
 }
-.nextPage:hover {
-  color: #c8b7b7;
+
+.nextpage:hover {
+  color: #916f6f;
 }
 
 .carousel {
